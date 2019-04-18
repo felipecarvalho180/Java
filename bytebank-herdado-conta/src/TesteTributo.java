@@ -3,7 +3,7 @@ public class TesteTributo {
 
 	public static void main(String[] args) {
 		ContaCorrente conta = new ContaCorrente(123, 5464);
-		conta.deposita(100);
+		conta.deposita(450);
 		
 		SeguroDeVida seguro = new SeguroDeVida();
 		
