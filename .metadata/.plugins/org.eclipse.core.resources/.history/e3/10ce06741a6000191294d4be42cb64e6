@@ -1,7 +1,0 @@
-
-public class TesteBancoSemCliente {
-	public static void main(String[] args) {
-		Conta contaDaThaina = new Conta();
-		System.out.println(contaDaThaina.saldo);
-	}
-}
