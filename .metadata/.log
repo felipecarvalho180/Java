@@ -1425,3 +1425,439 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 03:51:26.293
 !MESSAGE executing callback sts4.classpath.XKWjYlUg SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 04:16:09.103
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XKWjYlUg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 04:16:09.104
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.XKWjYlUg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 04:16:09.104
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-25 04:16:09.104
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.XKWjYlUg => OK
+!SESSION 2019-04-26 08:08:37.562 -----------------------------------------------
+eclipse.buildId=4.2.1.201904170946-RELEASE
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-26 08:08:46.415
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-04-26 08:08:48.544
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-26 08:08:48.544
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13cf5f8a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c9ea1d0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-26 08:08:55.747
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Felipe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:08:56.341
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:08:56.341
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@69f2e990[org.springframework.tooling.boot.ls:1.6.0.201904170912(id=572)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:08:56.341
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:08:56.607
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.695
+!MESSAGE Boot LS startup time from start to initialized: 8210ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.736
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NdrRzsFm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.737
+!MESSAGE subscribing to classpath changes: sts4.classpath.NdrRzsFm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.738
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.739
+!MESSAGE subsribers = [sts4.classpath.NdrRzsFm]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.739
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.745
+!MESSAGE project bytebank-herdado-conta ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.746
+!MESSAGE project bytebank ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.747
+!MESSAGE Preparing classpath changed notification bytebank-herdado-conta
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.747
+!MESSAGE project bytebank SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.747
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.748
+!MESSAGE project bytebank-composto ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.748
+!MESSAGE project bytebank-composto SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.749
+!MESSAGE project bytebank-encapsulado ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.750
+!MESSAGE project bytebank-encapsulado SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.750
+!MESSAGE project bytebank-herdado ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.750
+!MESSAGE project bytebank-herdado SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.751
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.751
+!MESSAGE project demo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.751
+!MESSAGE project java-pilha ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.752
+!MESSAGE project java-pilha SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.752
+!MESSAGE project sintaxe-basica ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.753
+!MESSAGE project sintaxe-basica SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.753
+!MESSAGE project sintaxe-variaveis-e-fluxo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.754
+!MESSAGE project sintaxe-variaveis-e-fluxo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.754
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.754
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.754
+!MESSAGE executing callback sts4.classpath.NdrRzsFm bytebank-herdado-conta false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.755
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NdrRzsFm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:09:04.780
+!MESSAGE executing callback sts4.classpath.NdrRzsFm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:18:04.914
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NdrRzsFm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:18:04.915
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NdrRzsFm
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:18:04.915
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:18:04.915
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NdrRzsFm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.151
+!MESSAGE Boot LS startup time from start to initialized: 3879ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.722
+!MESSAGE Boot LS startup time from start to initialized: 4450ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.753
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pyPofUiN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.753
+!MESSAGE subscribing to classpath changes: sts4.classpath.pyPofUiN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.753
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.754
+!MESSAGE subsribers = [sts4.classpath.pyPofUiN]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.754
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.755
+!MESSAGE project java-io ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.756
+!MESSAGE project bytebank ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.756
+!MESSAGE Preparing classpath changed notification java-io
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.757
+!MESSAGE project bytebank SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.757
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.757
+!MESSAGE project bytebank-composto ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.758
+!MESSAGE project bytebank-composto SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.758
+!MESSAGE project bytebank-encapsulado ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.758
+!MESSAGE project bytebank-encapsulado SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.759
+!MESSAGE project bytebank-herdado ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.759
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.759
+!MESSAGE project bytebank-herdado SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.760
+!MESSAGE executing callback sts4.classpath.pyPofUiN java-io false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.760
+!MESSAGE project bytebank-herdado-conta ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.760
+!MESSAGE project bytebank-herdado-conta SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.761
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.761
+!MESSAGE project demo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.762
+!MESSAGE project java-pilha ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.762
+!MESSAGE project java-pilha SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.763
+!MESSAGE project sintaxe-basica ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.763
+!MESSAGE project sintaxe-basica SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.763
+!MESSAGE project sintaxe-variaveis-e-fluxo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.764
+!MESSAGE project sintaxe-variaveis-e-fluxo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.764
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.765
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pyPofUiN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:27:13.801
+!MESSAGE executing callback sts4.classpath.pyPofUiN SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:55:24.446
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pyPofUiN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:55:24.447
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.pyPofUiN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:55:24.447
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:55:24.448
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pyPofUiN => OK
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-04-26 08:55:27.793
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.springframework.tooling.ls.eclipse.commons.STS4LanguageServerProcessStreamConnector$1
+!SESSION 2019-04-26 08:56:40.459 -----------------------------------------------
+eclipse.buildId=4.2.1.201904170946-RELEASE
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-26 08:56:45.177
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-04-26 08:56:45.997
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-26 08:56:45.997
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64eeddd8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10f8e2d2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:50.044
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:50.044
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3aed2596[org.springframework.tooling.boot.ls:1.6.0.201904170912(id=572)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:50.044
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:50.076
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-04-26 08:56:50.238
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Felipe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:55.605
+!MESSAGE Boot LS startup time from start to initialized: 5544ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:55.642
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QEeSoQQW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:55.642
+!MESSAGE subscribing to classpath changes: sts4.classpath.QEeSoQQW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:55.644
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:55.645
+!MESSAGE subsribers = [sts4.classpath.QEeSoQQW]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:55.645
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.304
+!MESSAGE project java-io ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.305
+!MESSAGE project bytebank ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.306
+!MESSAGE Preparing classpath changed notification java-io
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.306
+!MESSAGE project bytebank SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.307
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.307
+!MESSAGE project bytebank-composto ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.308
+!MESSAGE project bytebank-composto SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.308
+!MESSAGE project bytebank-encapsulado ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.309
+!MESSAGE project bytebank-encapsulado SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.310
+!MESSAGE project bytebank-herdado ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.311
+!MESSAGE project bytebank-herdado SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.312
+!MESSAGE project bytebank-herdado-conta ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.313
+!MESSAGE project bytebank-herdado-conta SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.315
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.316
+!MESSAGE project demo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.316
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.317
+!MESSAGE project java-pilha ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.318
+!MESSAGE executing callback sts4.classpath.QEeSoQQW java-io false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.318
+!MESSAGE project java-pilha SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.319
+!MESSAGE project sintaxe-basica ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.319
+!MESSAGE project sintaxe-basica SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.319
+!MESSAGE project sintaxe-variaveis-e-fluxo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.320
+!MESSAGE project sintaxe-variaveis-e-fluxo SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.320
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.321
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QEeSoQQW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 08:56:56.358
+!MESSAGE executing callback sts4.classpath.QEeSoQQW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 09:03:10.790
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QEeSoQQW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 09:03:10.790
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QEeSoQQW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 09:03:10.791
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-26 09:03:10.791
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QEeSoQQW => OK
